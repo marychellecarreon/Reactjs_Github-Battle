@@ -15,3 +15,7 @@ followers.
 ```
 
 Then it will redirect you to the localhost , https//:localhost:3000
+
+### SCREENSHOT
+
+![screen shot 2017-10-01 at 1 26 46 pm](https://user-images.githubusercontent.com/26729817/31052061-62da2fe8-a6ac-11e7-81b2-13c19f1e2122.png)
