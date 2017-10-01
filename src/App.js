@@ -87,5 +87,3 @@ export default App;
 
 
 //super props : helps to access the component class
-
-// <Input placeholder="Placeholder" s={6} label="First Name" />

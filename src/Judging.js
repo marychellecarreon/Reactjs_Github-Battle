@@ -26,4 +26,8 @@ class Judging extends Component {
       }
   }
 
-export default Judging;
+export default Judging
+
+// Keys help React identify which items have changed, added or removed.
+// Keys should be given to the elements inside the array to give the element
+// a stable identity
