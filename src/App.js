@@ -45,7 +45,7 @@ lookupPlayer(player_number) {
   render() {
     return (
       <div>
-         <h1>Github Battle</h1>
+         <center><h1>Github Battle</h1></center>
 
          <Judging
             player1 = {this.state.player1}
@@ -54,7 +54,7 @@ lookupPlayer(player_number) {
          <Row>
            <Col s={12} m={6}>
 
-              <input
+              <input placeholder="USERNAME"
                   ref={(input) => { this.player1Input = input; }}
                 />
               <Button waves='light' onClick={() => this.lookupPlayer(1)}>Lookup</Button>
@@ -63,7 +63,7 @@ lookupPlayer(player_number) {
 
               <Col s={12} m={6}>
 
-               <input
+               <input placeholder="USERNAME"
                   ref={(input) => { this.player2Input = input; }}
                 />
                <Button waves='light' onClick={() => this.lookupPlayer(2)}>Lookup</Button>
@@ -87,3 +87,5 @@ export default App;
 
 
 //super props : helps to access the component class
+
+// <Input placeholder="Placeholder" s={6} label="First Name" />

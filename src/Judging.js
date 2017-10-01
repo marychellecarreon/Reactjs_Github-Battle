@@ -11,11 +11,11 @@ class Judging extends Component {
 
        var result;
          if (this.props.player1.followers > this.props.player2.followers) {
-             result = 'Player1 wins!!!'
+             result = 'PLAYER 1 WINS!!!'
          } else if (this.props.player1.followers == this.props.player2.followers) {
-            result = "It's a draw!!!"
+            result = "IT'S A DRAW!!!"
          } else {
-           result = 'Player2 wins!!!'
+           result = 'PLAYER 2 WINS!!!'
          }
 
         return (
