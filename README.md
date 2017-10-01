@@ -1,3 +1,5 @@
+![ReactJS|Done](https://img.shields.io/badge/ReactJS-Complete-yellowgreen.svg)
+
 # Git Battle
 
 This app is an exercise to test my skills on React JS.
