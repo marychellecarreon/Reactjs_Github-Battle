@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 class Judging extends Component {
    render() {
      // check if object is empty, if its empty that means that player hasn't been entered
+     // Keys help react identify which items have changed, added or removed. Keys should be
+    // given to the elements inside the array to give the elements a stable identity.
        var isPlayer1Ready = !!Object.keys(this.props.player1).length;
        var isPlayer2Ready = !!Object.keys(this.props.player2).length;
        var playersReady = isPlayer1Ready && isPlayer2Ready
